@@ -1,0 +1,106 @@
+const resume = {
+  "basics": {
+    "name": "Your First and Last Name",
+    "label": "Your Professional Label or Title",
+    "picture": "URL to Your Profile Picture",
+    "email": "Your Email Address",
+    "phone": "(555) 555-5555",
+    "degree": "Your Degree Earned",
+    "website": "Your Website URL",
+    "summary": "A one-sentence to one-paragraph overview text. Do not include any line breaks.",
+    "location": {
+      "address": "Your Street Address or Mailing Address",
+      "postalCode": "Your Postal Code (ZIP in the U.S.)",
+      "city": "Your City",
+      "countryCode": "Your Country (e.g., USA)",
+      "region": "Your Region (State in the U.S.)"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Your LinkedIn Username",
+        "url": "URL to Your LinkedIn Profile"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Your Employer Name",
+      "position": "Your Job Title",
+      "website": "URL for the Employer's Website",
+      "startDate": "Your Start Date (YYYY-MM-DD format)",
+      "endDate": "Your End Date (YYY-MM-DD format) or leave blank for a current position",
+      "summary": "A one-sentence to one-paragraph summary of this employer or position",
+      "highlights": [
+        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Your Volunteer Organization Name",
+      "position": "Your Volunteer Job Title",
+      "website": "URL for the Organization's Website",
+      "startDate": "Your Start Date (YYYY-MM-DD format)",
+      "endDate": "Your End Date (YYY-MM-DD format) or leave blank for a current position",
+      "summary": "A one-sentence to one-paragraph summary of this volunteer position",
+      "highlights": [
+        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Your School Name",
+      "area": "Your Area of Study or Degree Earned",
+      "studyType": "Your Study Type (e.g., Bachelor's)",
+      "startDate": "Your Start Date (YYYY-MM-DD format)",
+      "endDate": "Your Completion Date (YYYY-MM-DD format)",
+      "gpa": "Your GPA",
+      "courses": [
+        "List of Relevant Courses"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Your Award Title",
+      "date": "Date You Received the Award (YYYY-MM-DD format)",
+      "awarder": "Entity Giving the Award",
+      "summary": "A one-sentence to one-paragraph overview of this award"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Your Publication Title",
+      "publisher": "Publisher Name",
+      "releaseDate": "Publication Date (YYYY-MM-DD format)",
+      "website": "URL to Publisher's Website",
+      "summary": "A one-sentence to one-paragraph overview of this publication"      
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Your Skill Level",
+      "keywords": [
+        "Java", "C++", "Other Relevant Keywords"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Language Name",
+      "fluency": "Your Language Fluency Level"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Cricket", "Football", "Golf"
+      ]
+    }
+  ]
+}
+console.log(resume.basics);
